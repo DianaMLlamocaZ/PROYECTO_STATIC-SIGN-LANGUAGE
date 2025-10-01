@@ -1,6 +1,6 @@
 # Proyecto de Reconocimiento de Señas Estáticas
 
-Sistema en desarrollo para identificar señas estáticas del lenguaje de señas mediante visión computacional.
+Sistema **en desarrollo** para identificar señas estáticas del lenguaje de señas mediante visión computacional.
 
 ## Estado actual
 
