@@ -20,7 +20,7 @@ Sistema para identificar señas estáticas y dinámicas del lenguaje de señas m
   
 ## Acceso al código
 
-Por el momento, el proyecto no está disponible públicamente, ya que aún está en proceso de mejora continua y optimización.
+Por el momento, el proyecto no está disponible públicamente, ya que **aún está en proceso de mejora continua y optimización.**
 
 ## Próximos pasos
 
