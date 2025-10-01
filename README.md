@@ -26,5 +26,5 @@ Sistema para identificar señas estáticas y dinámicas del lenguaje de señas m
 
 ## IMPORTANTE
 
-- Actualmente, estoy realizando mejoras para extender el sistema al reconocimiento de señas dinámicas a través de modelos recurrentes.
+- Actualmente estoy trabajando en la extensión del sistema para reconocer señas dinámicas, utilizando modelos recurrentes para procesar secuencias de movimiento.
 
