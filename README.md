@@ -22,6 +22,7 @@ Sistema para identificar señas estáticas y dinámicas del lenguaje de señas m
 
 Por el momento, el proyecto no está disponible públicamente, ya que **aún está en proceso de mejora continua y optimización.**
 
-## Próximos pasos
+## IMPORTANTE
 
-- Extender el reconocimiento a señas dinámicas.
+- Actualmente, estoy realizando mejoras para extender el sistema al reconocimiento de señas dinámicas a través de modelos recurrentes.
+
