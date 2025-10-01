@@ -20,7 +20,8 @@ Sistema para identificar señas estáticas y dinámicas del lenguaje de señas m
   
 ## Acceso al código
 
-El código fuente no se encuentra disponible públicamente ya que el proyecto continúa en desarrollo activo y en proceso de mejora técnica. El repositorio se mantiene privado mientras se realizan mejoras en el sistema y se optimiza el modelo para lograr resultados más robustos y confiables.
+El código fuente no se encuentra disponible públicamente ya que el proyecto continúa en desarrollo activo y en proceso de mejora técnica.
+El repositorio se mantiene privado mientras se realizan mejoras en el sistema y se optimiza el modelo para lograr resultados más robustos y confiables.
 
 ## IMPORTANTE
 
