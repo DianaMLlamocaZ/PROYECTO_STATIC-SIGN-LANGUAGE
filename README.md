@@ -1,11 +1,10 @@
-# Proyecto de Reconocimiento de Señas Estáticas
+# Proyecto de Reconocimiento de Señas Estáticas y Señas Dinámicas
 
-Sistema **en desarrollo** para identificar señas estáticas del lenguaje de señas mediante visión computacional.
+Sistema para identificar señas estáticas y dinámicas del lenguaje de señas mediante visión computacional.
 
 ## Estado actual
 
-Este proyecto está en una fase inicial de desarrollo.
-- Actualmente, el sistema puede detectar señas estáticas individuales y asociarlas con letras del alfabeto.
+- El proyecto cuenta con un modelo funcional para el reconocimiento de señas estáticas individuales, basado en landmarks extraídos con MediaPipe y procesados mediante un perceptrón multicapa (MLP).
 
 - Se creó un pipeline que permite al usuario tomar screenshots en tiempo real para generar nueva data, junto con funciones de preprocesamiento y un proceso automatizado para entrenar el modelo llamando solo a funciones específicas.
 
@@ -17,6 +16,8 @@ Este proyecto está en una fase inicial de desarrollo.
 
 - El procesamiento se realiza sobre imágenes estáticas capturadas desde cámara, sin incluir todavía señas dinámicas ni palabras completas.
 
+- Se busca mejorar el sistema a clasificación de señas dinámicas.
+  
 ## Acceso al código
 
 Por el momento, el proyecto no está disponible públicamente, ya que aún está en proceso de mejora continua y optimización.
