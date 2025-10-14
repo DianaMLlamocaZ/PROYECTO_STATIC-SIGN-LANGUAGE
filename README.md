@@ -24,6 +24,10 @@ Este proyecto cuenta con un pipeline automatizado para la recolección de datos,
 
 ### Etapas:
 #### 1) Recolección de datos
+- Implementé un pipeline que permite al usuario tomar screenshots en tiempo real para generar nueva data.
+- Los keypoints recolectados en el paso anterior, son almacenados en archivos .csv individuales por clase.
+- Creación de funciones específicas para juntar los archivos .csv individuales y dividirlos en train/test sets.
+
 #### 2) Preprocesamiento
 
 
