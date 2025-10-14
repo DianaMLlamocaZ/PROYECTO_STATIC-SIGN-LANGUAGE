@@ -50,7 +50,7 @@ Este proyecto cuenta con un pipeline automatizado para la recolección, limpieza
 Modelo funcional para reconocimiento de señas estáticas individuales, basado en landmarks extraídos con MediaPipe y procesados mediante un MLP.
   - Pipeline de recolección y preprocesamiento que facilita la ampliación y mejora continua **(HECHO)**.
   - Normalización aplicada para mejorar precisión y consistencia **(HECHO)**.
-  - Procesamiento basado en imágenes estáticas, sin soporte para señas dinámicas todavía **(HECHO)**.
+  - Procesamiento y predicción del modelo basado en imágenes estáticas **(HECHO)**.
   - **Próximo objetivo**: extender reconocimiento a señas dinámicas mediante modelos recurrentes.
 
 ======
