@@ -10,7 +10,7 @@ El siguiente video muestra el funcionamiento en tiempo real del modelo reconocie
 
 ![Demo]()
 
-![¡También puede ver el DEMO completo aquí!](./DEMO/DemoProyecto.mp4)
+[¡También puede ver el video demo aquí!](./DEMO/DemoProyecto.mp4)
 
 Estas letras se utilizaron para validar el preprocesamiento de los keypoints (invarianza a escala, por ejemplo cuando el gesto está muy cerca de la cámara) y para entrenar el modelo inicial.
 
