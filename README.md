@@ -1,6 +1,6 @@
 # Proyecto de Reconocimiento de Señas Estáticas y Señas Dinámicas
 
-Este proyecto realiza el reconocimiento de señas estáticas del alfabeto manual utilizando computer vision y deep learning.
+Este proyecto realiza el reconocimiento de lenguaje de señas estáticas del alfabeto manual utilizando computer vision y deep learning.
 
 
 ## Demo
