@@ -7,8 +7,10 @@ Este proyecto realiza el reconocimiento de señas estáticas del alfabeto manual
 
 El siguiente GIF muestra el funcionamiento en tiempo real del modelo reconociendo las letras de algunas palabras del alfabeto para los que fue entrenado:
 - a, b, c, d, e, f, h
-Por el momento estas letras 
 
+![GIF_Sample](link)
+
+Por el momento, estas letras fueron consideradas para verificar el preprocesamiento de los keypoints y posteriormente entrenar al modelo.  
 
 
 ## Estado actual
