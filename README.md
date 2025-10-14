@@ -12,7 +12,7 @@ El siguiente video muestra el funcionamiento en tiempo real del modelo reconocie
 
 Estas letras se utilizaron para validar el preprocesamiento de los keypoints (invarianza a escala, por ejemplo cuando el gesto está muy cerca de la cámara) y para entrenar el modelo inicial.
 
-====
+======
 
 ## Desarrollo
 - Uso de MediaPipe para la extracción de landmarks (keypoints) de la mano, que sirven como inputs para el modelo.
