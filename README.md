@@ -20,7 +20,7 @@ Por el momento, estas letras fueron consideradas para verificar el preprocesamie
 
 
 ## Pipeline del proyecto
-Este proyecto cuenta con un pipeline automatizado para la recolección de datos, limpieza y procesamiento de datos desde cero para entrenar el modelo de reconocimiento de señas, facilitando el proceso de recolección de data y escalabilidad del proyecto.
+Este proyecto cuenta con un pipeline automatizado para la recolección de datos, limpieza y procesamiento de datos desde cero para entrenar el modelo de reconocimiento de señas, facilitando la escalabilidad del proyecto.
 
 ### Etapas:
 #### 1) Recolección de datos
