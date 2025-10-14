@@ -20,7 +20,7 @@ Por el momento, estas letras fueron consideradas para verificar el preprocesamie
 
 
 ## Pipeline del proyecto
-Este proyecto cuenta con un pipeline automatizado para la recolección de datos, limpieza y procesamiento de datos desde cero para entrenar el modelo de reconocimiento de señas, facilitando la escalabilidad del proyecto.
+Este proyecto cuenta con un pipeline automatizado para la recolección de datos, limpieza y preprocesamiento de datos desde cero para entrenar el modelo de reconocimiento de señas, facilitando la escalabilidad del proyecto.
 
 ### Etapas:
 #### 1) Recolección de datos
@@ -29,9 +29,11 @@ Este proyecto cuenta con un pipeline automatizado para la recolección de datos,
 - Creación de funciones específicas para juntar los archivos .csv individuales y dividirlos en train/test sets.
 
 #### 2) Preprocesamiento
+- Implementación de funciones orientadas al escalamiento/normalización de keypoints para que sean invariantes a escala. De esta manera, el modelo aprende mejor las distribuciones espaciales de las señas.
+- Conversión de datos a tensores para entrenamiento por batches haciendo uso de DataLoaders.
 
-
-
+#### 3) Entrenamiento
+- Implementación de la función para entrenar al modelo.
 
 
 
