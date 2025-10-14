@@ -30,7 +30,7 @@ Este proyecto cuenta con un pipeline automatizado para la recolección de datos,
 
 #### 2) Preprocesamiento
 - Implementación de funciones orientadas al escalamiento/normalización de keypoints para que sean invariantes a escala. De esta manera, el modelo aprende mejor las distribuciones espaciales de las señas.
-- Conversión de datos a tensores para entrenamiento por batches haciendo uso de DataLoaders.
+- Conversión de datos a tensores para entrenamiento, utilizando DataLoaders para el uso de batches.
 
 #### 3) Entrenamiento
 - Implementación de la función para entrenar al modelo.
