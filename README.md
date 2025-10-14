@@ -51,7 +51,7 @@ Modelo funcional para reconocimiento de señas estáticas individuales, basado e
   - Pipeline de recolección y preprocesamiento que facilita la ampliación y mejora continua **(HECHO)**.
   - Normalización aplicada para mejorar precisión y consistencia **(HECHO)**.
   - Procesamiento basado en imágenes estáticas, sin soporte para señas dinámicas todavía **(HECHO)**.
-  - **Próximo objetivo**: extender reconocimiento a señas dinámicas mediante modelos recurrentes **(EN IMPLEMENTACIÓN)**.
+  - **Próximo objetivo**: extender reconocimiento a señas dinámicas mediante modelos recurrentes.
 
 ======
   
