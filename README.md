@@ -11,7 +11,7 @@ El siguiente video muestra el funcionamiento en tiempo real del modelo reconocie
   <img src="./DEMO/DEMO_Gif.gif">
 </div>
 
-- [¡También puede ver el video demo completo aquí!](./DEMO/DemoProyecto.mp4)
+- [¡También puedes ver el video demo completo aquí!](./DEMO/DemoProyecto.mp4)
 
 Estas letras se utilizaron para validar el preprocesamiento de los keypoints (invarianza a escala, por ejemplo cuando el gesto está muy cerca de la cámara) y para verificar el funcionamiento del modelo.
 
