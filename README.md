@@ -8,7 +8,6 @@ Este proyecto realiza el reconocimiento de lenguaje de señas estáticas del alf
 El siguiente video muestra el funcionamiento en tiempo real del modelo reconociendo las letras de algunas palabras del alfabeto para los que fue entrenado:
 - a, b, c, d, e, f, h
 
-![GIF_Sample](link)
 
 Por el momento, estas letras fueron consideradas para verificar el preprocesamiento de los keypoints (invarianza a escala si el gesto se realiza muy cerca de la cámara) y posteriormente entrenar al modelo.  
 
