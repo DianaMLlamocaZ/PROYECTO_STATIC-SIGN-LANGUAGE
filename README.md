@@ -41,20 +41,12 @@ Este proyecto cuenta con un pipeline automatizado para la recolección, limpieza
 
 
 ## Estado actual
+Modelo funcional para reconocimiento de señas estáticas individuales, basado en landmarks extraídos con MediaPipe y procesados mediante un MLP.
+  - Pipeline de recolección y preprocesamiento que facilita la ampliación y mejora continua.
+  - Normalización aplicada para mejorar precisión y consistencia.
+  - Procesamiento basado en imágenes estáticas, sin soporte para señas dinámicas todavía.
+  - **Próximo objetivo**: extender reconocimiento a señas dinámicas mediante modelos recurrentes.
 
-- El proyecto cuenta con un modelo funcional para el reconocimiento de señas estáticas individuales, basado en landmarks extraídos con MediaPipe y procesados mediante un perceptrón multicapa (MLP).
-
-- Se creó un pipeline que permite al usuario tomar screenshots en tiempo real para generar nueva data, junto con funciones de preprocesamiento y un proceso automatizado para entrenar el modelo llamando solo a funciones específicas.
-
-- Para el reconocimiento, se utilizan los **landmarks** extraídos con MediaPipe como input para un modelo de perceptrón multicapa (MLP), que procesa estas coordenadas para clasificar las señas.
-
-- El enfoque principal está en mejorar continuamente el preprocesamiento y el rendimiento del modelo.
-
-- Se aplicó **normalización de keypoints** para mejorar la precisión y la consistencia en el reconocimiento, y el modelo aprenda las distribuciones espaciales de las señas.
-
-- El procesamiento se realiza sobre imágenes estáticas capturadas desde cámara, sin incluir todavía señas dinámicas ni palabras completas.
-
-- Se busca mejorar el sistema a clasificación de señas dinámicas.
   
 ## Acceso al código
 
