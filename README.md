@@ -19,11 +19,12 @@ Estas letras se utilizaron para validar el preprocesamiento de los keypoints (in
 - Funciones de preprocesamiento para lograr invarianza a escala en los keypoints, aplicadas tanto en entrenamiento como en inferencia.
 - Implementación de un perceptrón multicapa (MLP) para clasificación de señas.
 
-
+======
 
 ## Pipeline del proyecto
 Este proyecto cuenta con un pipeline automatizado para la recolección, limpieza y preprocesamiento de datos desde cero para entrenar el modelo de reconocimiento de señas, facilitando la escalabilidad del proyecto.
 
+======
 
 ### Etapas:
 #### 1) Recolección de datos
@@ -41,7 +42,7 @@ Este proyecto cuenta con un pipeline automatizado para la recolección, limpieza
 #### 3) Entrenamiento
 - Función automatizada para entrenar el modelo con los datos procesados.
 
-
+======
 
 ## Estado actual
 Modelo funcional para reconocimiento de señas estáticas individuales, basado en landmarks extraídos con MediaPipe y procesados mediante un MLP.
@@ -50,12 +51,15 @@ Modelo funcional para reconocimiento de señas estáticas individuales, basado e
   - Procesamiento basado en imágenes estáticas, sin soporte para señas dinámicas todavía.
   - **Próximo objetivo**: extender reconocimiento a señas dinámicas mediante modelos recurrentes.
 
+======
   
 ## Acceso al código
 
 - El código fuente no se encuentra disponible públicamente ya que el proyecto continúa en desarrollo activo y en proceso de mejora técnica.
 
 - El repositorio se mantiene privado mientras se realizan mejoras en el sistema y se optimiza el modelo para lograr resultados más robustos y confiables en señas dinámicas.
+
+======
 
 ## IMPORTANTE
 
