@@ -5,34 +5,38 @@ Este proyecto realiza el reconocimiento de lenguaje de señas estáticas del alf
 
 ## Demo
 
-El siguiente video muestra el funcionamiento en tiempo real del modelo reconociendo las letras de algunas palabras del alfabeto para los que fue entrenado:
+El siguiente video muestra el funcionamiento en tiempo real del modelo reconociendo las letras de algunas letras para las que fue entrenado:
 - a, b, c, d, e, f, h
 
-
-Por el momento, estas letras fueron consideradas para verificar el preprocesamiento de los keypoints (invarianza a escala si el gesto se realiza muy cerca de la cámara) y posteriormente entrenar al modelo.  
+Estas letras se utilizaron para validar el preprocesamiento de los keypoints (invarianza a escala, por ejemplo cuando el gesto está muy cerca de la cámara) y para entrenar el modelo inicial.
 
 
 ## Desarrollo
-- Uso de MediaPipe para la extracción de landmarks (keypoints) de la mano, que servirán como inputs del modelo.
-- Funciones de preprocesamiento para la invarianza a escala de los keypoints, tanto para entrenamiento como inferencia.
-- Implementación de un multilayer perceptron (MLP) para clasificación de señas.
+- Uso de MediaPipe para la extracción de landmarks (keypoints) de la mano, que sirven como inputs para el modelo.
+- Funciones de preprocesamiento para lograr invarianza a escala en los keypoints, aplicadas tanto en entrenamiento como en inferencia.
+- Implementación de un perceptrón multicapa (MLP) para clasificación de señas.
+
 
 
 ## Pipeline del proyecto
-Este proyecto cuenta con un pipeline automatizado para la recolección de datos, limpieza y preprocesamiento de datos desde cero para entrenar el modelo de reconocimiento de señas, facilitando la escalabilidad del proyecto.
+Este proyecto cuenta con un pipeline automatizado para la recolección, limpieza y preprocesamiento de datos desde cero para entrenar el modelo de reconocimiento de señas, facilitando la escalabilidad del proyecto.
+
 
 ### Etapas:
 #### 1) Recolección de datos
-- Implementé un pipeline que permite al usuario tomar screenshots en tiempo real para generar nueva data.
-- Los keypoints recolectados en el paso anterior, son almacenados en archivos .csv individuales por clase.
-- Creación de funciones específicas para juntar los archivos .csv individuales y dividirlos en train/test sets.
+  - Pipeline que permite al usuario tomar screenshots en tiempo real para generar nueva data.
+  - Los keypoints recolectados se almacenan en archivos .csv individuales por clase.
+  - Funciones para unir los archivos .csv y dividir los datos en sets de entrenamiento y prueba.
+
+
 
 #### 2) Preprocesamiento
-- Implementación de funciones orientadas al escalamiento/normalización de keypoints para que sean invariantes a escala. De esta manera, el modelo aprende mejor las distribuciones espaciales de las señas.
-- Conversión de datos a tensores para entrenamiento, utilizando DataLoaders para el uso de batches.
+  - Normalización y escalamiento de keypoints para invarianza a escala.
+  - Conversión a tensores para entrenamiento, y uso de DataLoaders para batches.
+
 
 #### 3) Entrenamiento
-- Implementación de la función para entrenar al modelo.
+- Función automatizada para entrenar el modelo con los datos procesados.
 
 
 
