@@ -13,6 +13,24 @@ El siguiente video muestra el funcionamiento en tiempo real del modelo reconocie
 Por el momento, estas letras fueron consideradas para verificar el preprocesamiento de los keypoints (invarianza a escala si el gesto se realiza muy cerca de la cámara) y posteriormente entrenar al modelo.  
 
 
+## Desarrollo
+- Uso de MediaPipe para la extracción de landmarks (keypoints) de la mano, que servirán como inputs del modelo.
+- Funciones de preprocesamiento para la invarianza a escala de los keypoints, tanto para entrenamiento como inferencia.
+- Implementación de un multilayer perceptron (MLP) para clasificación de señas.
+
+
+## Pipeline del proyecto
+Este proyecto cuenta con un pipeline automatizado para la recolección de datos, limpieza y procesamiento de datos desde cero para entrenar el modelo de reconocimiento de señas.
+
+### Etapas:
+#### 1) Recolección de datos
+#### 2) Preprocesamiento
+
+
+
+
+
+
 ## Estado actual
 
 - El proyecto cuenta con un modelo funcional para el reconocimiento de señas estáticas individuales, basado en landmarks extraídos con MediaPipe y procesados mediante un perceptrón multicapa (MLP).
