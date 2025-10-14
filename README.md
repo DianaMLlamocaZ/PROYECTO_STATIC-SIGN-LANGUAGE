@@ -24,7 +24,6 @@ Estas letras se utilizaron para validar el preprocesamiento de los keypoints (in
 ## Pipeline del proyecto
 Este proyecto cuenta con un pipeline automatizado para la recolección, limpieza y preprocesamiento de datos desde cero para entrenar el modelo de reconocimiento de señas, facilitando la escalabilidad del proyecto.
 
-======
 
 ### Etapas:
 #### 1) Recolección de datos
