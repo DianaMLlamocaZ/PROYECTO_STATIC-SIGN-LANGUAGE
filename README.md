@@ -3,7 +3,7 @@
 Este proyecto realiza el reconocimiento de señas estáticas del alfabeto manual utilizando computer vision y deep learning.
 
 
-# Demo
+## Demo
 
 El siguiente GIF muestra el funcionamiento en tiempo real del modelo reconociendo las letras de algunas palabras del alfabeto para los que fue entrenado:
 - a, b, c, d, e, f, h
