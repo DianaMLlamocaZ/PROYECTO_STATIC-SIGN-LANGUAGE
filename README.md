@@ -10,7 +10,7 @@ El siguiente video muestra el funcionamiento en tiempo real del modelo reconocie
 
 ![GIF_Sample](link)
 
-Por el momento, estas letras fueron consideradas para verificar el preprocesamiento de los keypoints y posteriormente entrenar al modelo.  
+Por el momento, estas letras fueron consideradas para verificar el preprocesamiento de los keypoints (invarianza a escala si el gesto se realiza muy cerca de la cámara) y posteriormente entrenar al modelo.  
 
 
 ## Estado actual
